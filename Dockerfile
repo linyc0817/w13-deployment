@@ -10,3 +10,4 @@ WORKDIR /usr/share/nginx/html
 COPY --from=react-nx-base /app/dist/apps/gke-demo .
 
 
+
